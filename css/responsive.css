@@ -55,3 +55,11 @@
         background: aqua;
     }
 }
+@media screen and (max-width: 470px){
+    #restaurant-name{
+        font-size: 1em;
+    }
+    #maincontent{
+        margin-top: 10%;
+    }
+}
