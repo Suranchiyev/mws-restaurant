@@ -1,0 +1,57 @@
+@media screen and (max-width: 1800px){
+    #restaurants-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #restaurants-list li{
+        width: 21.5%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #restaurants-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #restaurants-list li{
+        width: 29.7%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #restaurants-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #restaurants-list li{
+        width: 46%;
+    }
+}
+@media screen and (max-width: 500px){
+    #restaurants-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #restaurants-list li{
+        width: 100%;
+    }
+}
+
+/*Restaurant details*/
+@media screen and (max-width: 820px){
+    #maincontent {
+        display: block;
+        /*min-height: 100%;*/
+    }
+    #restaurant-content{
+        width: 100%;
+    }
+    .inside #footer{
+        width: 100%;
+    }
+    .inside #map-container{
+        height: 500px;
+        width: 100%;
+        background: aqua;
+    }
+}
