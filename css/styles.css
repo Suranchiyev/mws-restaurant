@@ -38,6 +38,10 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
+}
+#maincontent-details{
+  background-color: #f3f3f3;
+  min-height: 100%;
   display: inline-flex;
 }
 #footer {
@@ -104,6 +108,9 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+}
+.map-in-details{
+  margin-top: 14%;
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
